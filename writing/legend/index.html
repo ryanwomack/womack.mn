@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_128x128.png" sizes="128x128">
+
+    <title>
+      
+      
+         Legend 
+      
+    </title>
+    <link rel="canonical" href="https://womack.mn/writing/legend/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    max-width:700px;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float:right;
+  }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, time {
+    color:#403c3b;
+    font-size:13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:15px;
+    padding:60px 0 80px;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content time {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align:center;
+    position:static;
+    margin-top:60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float:right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #nav li {
+      font-size:13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:12px;
+    }
+
+    #content h1 {
+      font-size:20px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li div{
+      font-size:12px;
+    }
+  }
+</style>
+
+
+    
+  </head>
+
+  <body>
+    <section id=nav>
+      <h1><a href="https://womack.mn/">WOMACK.MN</a></h1>
+      <ul>
+        
+          <li><a href="https://womack.mn/about/">about</a></li>
+        
+          <li><a href="https://womack.mn/posts/">thoughts and dreams</a></li>
+        
+          <li><a href="https://womack.mn/writing/">writing</a></li>
+        
+      </ul>
+      <ul>
+	<li><a href="https://womack.mn/">English</a></li>
+	<li><a href="https://womack.mn/mn/">Монгол</a></li>
+      </ul>
+    </section>
+
+
+<section id=content>
+  <h1> Legend </h1>
+
+  <div id=date>
+    <time>2020-06-26</time>
+  </div>
+
+  <div class="entry-content">
+    <p><a href="https://womack.mn/Legend.pdf">A PDF version of &ldquo;Legend&rdquo; is here</a></p>
+<p><a href="https://womack.mn/mn/writing/legend">Энд &ldquo;Домог&rdquo; монголоор</a></p>
+<p><strong>Legend</strong></p>
+<p>by Ryan Womack</p>
+<hr>
+<blockquote>
+<p>“You were probably tricked by a fox,” said Hikoroku. “A deceiving spirit will possess you when you feel low. A grief-stricken weakling like you needs to pray to the gods and buddhas and calm your heart.”</p>
+</blockquote>
+<blockquote>
+<p>From Ueda Akinari, “The Kibitsu Cauldron”, in <em>Tales of Moonlight and Rain</em>, translated by Anthony H. Chambers (New York: Columbia University Press, 2007), p. 150.</p>
+</blockquote>
+<hr>
+<p><em>Kitsune/Kumiho</em></p>
+<p>A previously unknown medieval manuscript was recently discovered during an inventory of the archives of a Buddhist monastery in Nagoya, Japan. How this manuscript found its way to Nagoya is unknown, but its origins appear to be from Inner Asia. It was written in Chagatai, the classical Turkish of Central Asia, although internal clues, such as particular Buddhist invocations and geographic references, suggest a strong Mongol element. While there are no precise clues, this manuscript appears to date from the 1500s, and it is the earliest known reference to the legend of the fox spirit among Inner Asian nomads.</p>
+<p>In China, Japan, and Korea, legends about foxes are common. The Japanese <em>kitsune</em> take many forms, and can be benevolent or malevolent. In Chinese tradition, the <em>huli jing</em> often take female form and seek revenge on men for various misdeeds. The Korean <em>kumiho</em> has historically been depicted as hungry for human flesh, with a particular taste for the liver. These legends continue to be popular, and the image of the nine-tailed fox transformed into a beautiful human female has become common in Asian pop culture. In this context, the newly discovered Inner Asian manuscript demonstrates that the fox legends penetrated into other neighboring civilizations earlier than was previously thought. The Inner Asian version also introduces its own variations on the legends. That is not surprising, given that the fox legends exhibit hundreds of differing elements within China, Japan, and Korea.</p>
+<p>This manuscript uses an archaic grammatical structure and style, and it is littered with references that only someone with a knowledge of monastic Buddhism and medieval Central Asian history would appreciate. The complete version is perhaps best left to the specialists. But the story itself is a notable variant on the fox spirit legend, and so it is worthwhile to provide a brief modern paraphrase here.</p>
+<p>In the manuscript, an unnamed Buddhist monk claims to be recording the experience of a man who had encountered a fox spirit and barely escaped with his life, although such claims have always been a common method to legitimize the author&rsquo;s own inventions.</p>
+<p>The man was an ordinary nomad who had managed a small herd of sheep, goats, and camels together with his wife, until she died suddenly in childbirth. The newborn did not survive either, and the man was left distraught. He tried to survive on his own, but was encountering increasing difficulty in managing his herd alone. As a widower without much wealth, he would have been thought to bring bad luck to any family, and so had little hope of remarrying. His equally poor relations were not close to him, and could be of little assistance.</p>
+<p>One hot day in the steppe, he saw a small orangey blob on the horizon, which he thought at first was a fox scurrying towards him in the distance. But as he came closer, he realized that he was looking at a lone woman walking the desolate landscape in a brightly dyed, tangerine-colored robe (here the author uses the Mongolian word <em>deel [дээл]</em> to describe her clothing). The fox effect must have been a mirage. She was a great beauty, with long flowing hair, black with a tinge of auburn. Her face was oval and elegant, but there was a sharp glint in her eyes, and a hint of wildness in her half-smile as she acknowledged him. They greeted each other and began to talk, walking together across the steppe. She had her own tale of woe, having recently lost her husband. She had no clan relations to fall back upon, and so had become a wanderer.</p>
+<p>As they shared their stories of loss, they both realized that it would solve their problems if they were to come together.</p>
+<p>The woman said,</p>
+<p>“Until now, I have belonged to one male, who I thought was my one true husband. Since he is gone, I can become yours. But you must never betray me. If you stay faithful to me for twelve years, I will become yours forever. But if you betray me before that time, you will lose me and suffer a terrible penalty.”</p>
+<p>“I have already lost everything, so a new life would be an unimaginable gift. I have no intention of betraying you, so what can I fear?” he said.</p>
+<p>“You must never betray me, and you must keep the secret of my past and my prophecy. It is a very serious promise to enter into. You must understand that you will be tested,” she said.</p>
+<p>The man was surprised and puzzled by the determined look in her eye and her insistence, but he promised her what she wanted all the same.</p>
+<p>He brought her back to his relations and introduced her as his newly met wife. In time, she was accepted by the relations, and the man began to relax his guard and enjoy his new life, counting himself lucky to have started again after his first loss.</p>
+<p>He stayed with her for years, and they also had three children who grew rapidly into independent and spirited creatures that the man took pride in. Then, in the eleventh year of their marriage, the man was tempted.</p>
+<p>While he was away from his wife and children on a long journey with his herds to find new pasture and a promising site to relocate their <em>ger</em>—here the writer of the tale uses the Mongolian word <em>[гэр]</em> for the traditional round tent-like dwelling—he encountered a lone woman sitting by a fire. She appeared to be living in a very small, ragged tent with few possessions. She was sitting with her back towards him as he approached her, and for a moment she appeared to have a pair of pointed ears rising from her head. She turned to him, hearing the noise of his feet shuffling in the sandy soil. He realized that the “ears” were formed by the folds of the cloak she had raised over her head to ward off the dusty wind. Her face was strikingly beautiful, less lively and vivacious than his wife&rsquo;s in many ways, but perfectly symmetric. Her eyes remained riveted to his, and her gaze was focused and concentrated, as if she wanted to burrow into his soul to discover what lay there. The man was startled and fascinated, and agreed to her offer to sit by the fire and share her meal.</p>
+<p>Whether he was exhausted by his journeys, or intoxicated by the strange intensity of this woman, the man began to feel light-headed and uninhibited in a way he had not felt in years, if ever. The woman by the fire kept turning the conversation back to his wife. If he praised his wife, the woman responded by praising him as a dutiful husband, but she always kept gently probing for additional information about her. If he loved his wife so much, how did they meet? The woman moved closer to him, and he felt an animal urge towards her, one that he had not felt in years towards any woman but his wife. Her body radiated powerful energy and heat towards him. His head was spinning as he found himself telling the woman by the fire the secret of his initial meeting with his wife, and how the wife had threatened a terrible punishment if he betrayed her.</p>
+<p>“But she is not here to punish you now,” the woman by the fire said, and drew closer to him, continuing to peer steadily into his eyes. The man did not move away. He accepted her embrace, and her invitation into the small tent. As dawn broke the next morning, he awoke with remorse, determined to hurry home to reunite with his wife and renew his passion for her.</p>
+<p>As he approached the <em>ger</em> that was his home, it seemed to flicker oddly in the early light. Thinking it was the effect of his fatigue, he rubbed his eyes and moved forward. His wife opened the door to greet him. Her face was a mask of pain, and the man understood that she must have felt something about what had happened. She turned to enter the <em>ger</em>, and he followed inside, seeing his three children sleeping under their blankets on the floor.</p>
+<p>“You did not keep your promise,” was all that she said, before burying her face in her hands and sobbing bitter tears. The man approached to comfort her, but noticed that her body had also begun to flicker like the <em>ger</em> had. Its form began to change. The woman looked up from her sobs, which had become piteous yelps. Her face, which had always had hints of fox-ness that he had sometimes teased her about, now appeared more fox-like than ever. The eyes had become sad pools of intense orange, her nose seemed elongated, and her mouth had widened into a frantic smile with long rows of pointed teeth. The children had now awoken, and he heard their sobbing and howling too.</p>
+<p>“Death is the punishment for such betrayal!” The man heard this voice loud and clear in his head, but could not be sure that his wife had spoken these words. In front of him was a snarling fox. He looked around. The <em>ger</em> was gone, and he was partially underground, struggling to pull himself towards the light at the entrance of a burrow. Three baby fox pups were yelping in the corner of the underground chamber, and a grown fox with a magnificently thick orange coat was beginning to viciously bite his legs. Terror seized him. Knowing that he would die if he did not run, he somehow gathered all of his force and broke free from the underground and ran at top speed away from the fox chasing him. Hours seemed to pass, and he was still running through strong sunlight when he saw the <em>ger</em> of one of his relations. He burst through the door like a wild man.</p>
+<p>The men and women inside stared in astonishment at his filthy face and clothing, covered in dirt and foul-smelling. They told him they had been looking for him for eleven days.</p>
+<p>Copyright © 2020 by Ryan Womack, all rights reserved</p>
+<hr>
+
+  </div>
+
+  <div id=links>
+    
+    
+      <a class="basic-alignment left" href="https://womack.mn/writing/moon/">The Moon of the Fifteenth &raquo;</a>
+    
+  </div>
+</section>
+
+        </div>
+
+      </div>
+
+      <div id="footer">
+	<p>Хэрвээ чи сурахаар шулуудсан бол,</br>
+	   хэн ч чамайг зогсоож чадахгүй</p>
+        <p>Copyright 2023 by Ryan Womack, all rights reserved</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
+
+
+

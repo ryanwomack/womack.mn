@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_128x128.png" sizes="128x128">
+
+    <title>
+      
+      
+         Freedom from Big Tech 
+      
+    </title>
+    <link rel="canonical" href="https://womack.mn/posts/freedom_from_big_tech/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    max-width:700px;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float:right;
+  }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, time {
+    color:#403c3b;
+    font-size:13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:15px;
+    padding:60px 0 80px;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content time {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align:center;
+    position:static;
+    margin-top:60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float:right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #nav li {
+      font-size:13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:12px;
+    }
+
+    #content h1 {
+      font-size:20px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li div{
+      font-size:12px;
+    }
+  }
+</style>
+
+
+    
+  </head>
+
+  <body>
+    <section id=nav>
+      <h1><a href="https://womack.mn/">WOMACK.MN</a></h1>
+      <ul>
+        
+          <li><a href="https://womack.mn/about/">about</a></li>
+        
+          <li><a href="https://womack.mn/posts/">thoughts and dreams</a></li>
+        
+          <li><a href="https://womack.mn/writing/">writing</a></li>
+        
+      </ul>
+      <ul>
+	<li><a href="https://womack.mn/">English</a></li>
+	<li><a href="https://womack.mn/mn/">Монгол</a></li>
+      </ul>
+    </section>
+
+
+<section id=content>
+  <h1> Freedom from Big Tech </h1>
+
+  <div id=date>
+    <time>2022-07-30</time>
+  </div>
+
+  <div class="entry-content">
+    <p>An accumulation of pressures has moved me in the direction of final acceptance of the fact that I will have to completely sever my ties with Big Tech.</p>
+<p>I have always had a privacy-focused approach, having been aware of the abuses that could be or have been committed by social media and internet companies.  I have had an on-again, off-again relationship with Facebook, and Google Plus was fun while it lasted.  But I was still a user.</p>
+<p>The commercial pressures on these companies are too great for them to keep any kind of ethical boundaries around what they do with the information they are collecting and retaining on their users.  Lines already have been crossed, and it is not going to get any better in the future.  Any techno-utopian visions of the early 90s internet are now long gone.  So I am getting out.  Even if it is not so easy.</p>
+<p><strong>Twitter, Alphabet, Meta</strong> &ndash; I am shutting them out of my life.  Let&rsquo;s address these one by one.</p>
+<h2 id="twitter">Twitter</h2>
+<p>This one is easy to dismiss.  Twitter had a brief moment when the cool, early adopters jumped onto it.  Then it seemed possible that it could be a useful professional and current awareness tool.  The problem, though, is that Twitter is not all that fun.  Even when it had content, it felt like work to keep up with feeds.  Keeping up created another dilemma: being left with endless unread browser tabs from interesting links to read later.  That didn&rsquo;t work so well.</p>
+<p>Twitter was not really missed as I increasingly stayed away from it.  Then the feed went algorithmic, and the studies rolled out about social media fomenting distraction, polarization, and superficial engagement.  Then Trump weaponized the service and connected himself with any thoughts of Twitter, which further distanced me.</p>
+<p>I never used Twitter for personal purposes, only for work, so after I complete my program of deleting old posts on a schedule, my Twitter, already inactive, will be deleted entirely.</p>
+<p>I am on <a href="https://mastodon.online/@ryanwomack"><strong>Mastodon</strong></a> instead, in case I feel the need to send electronic pulses onto the public Internets.</p>
+<h2 id="alphabet">Alphabet</h2>
+<p>Alphabet&rsquo;s massive data collection is inherently evil.  But it&rsquo;s free!  Yes, evil can be free.  The presence of that amount of connected data retained forever means that inevitably it will be used in the future when AI will be able to determine the future arc of your life from the videos and websites you viewed when you were 15.  Antitrust laws should be used to hack the company into moderately sized pieces (mail/docs, search, YouTube, etc.).</p>
+<p>Having been raised in the age when Google built the internet, it is difficult to disentangle oneself. I am basically required to use Google for school and work, so cannot shut those accounts down until retirement.  So I have to find a way to quarantine them from the rest of my life, and keep myself logged out of them as much as possible.</p>
+<p>Turning off personal gmail accounts is a slow process as well.  Some of them have been entangled with my life for some time, so I have to analyze them for a while to reroute traffic and make sure nothing important (such as might require a password reset e-mail) goes there.  I think I have killed off one of these accounts, but it still won&rsquo;t be deleted until a year of complete inactivity elapses.  I will be happy not to worry about it anymore.  Those other accounts I used to set up Blogspot blogs are long forgotten, so they float about the internet like space trash.  Only I (and Alphabet) know that they are linked to me, thankfully.</p>
+<p><strong>YouTube</strong> is the biggest problem here.  I am still grateful to YouTube for its role in my Harmogu experience, detailed elsewhere, and I can&rsquo;t imagine another source that could satisfy some of my cultural needs in the way that it does. But I need to find a way to distance or isolate my YouTube use from my life.  So far, that is only happening on a device-by-device basis.  I need to build up some strength before deleting the account associated with my YouTube history and playlists.  I also use another account for publishing my work videos.  I can&rsquo;t see dropping that before I retire either, but will use Vimeo or some other alternative for publishing personal videos.</p>
+<h2 id="meta">Meta</h2>
+<p>I think this is the easiest group of all to disconnect from, since the risk/reward tradeoff is mostly risk.  Meta&rsquo;s move into the metaverse, and its increasing insistence that all its services will merge into one big dark data pool makes it clear that the long-term is dire in this case.  We don&rsquo;t have to rehash Cambridge Analytica, Rohingya, or the endless privacy switcheroos pulled by the company to know that they can&rsquo;t be trusted.</p>
+<p><strong>Facebook</strong> never became central for me.  I have been around long enough to remember both the chronological timeline and wall, and even the brief reign of the thumbs down button. Having given it up once, I only rejoined because it is a communication vehicle of choice for Mongolians.  I was gratified when FB converted my default language to Mongolian based on my activity.  FB then taught me about how my every move was monitored and reported. I realized is that it was possible and desirable to move to messaging services that do not constantly advertise who is online and when.  And the tasteless stuff churned up by its algorithm has become an increasing waste of time.  The only problem is that I do not have much else as a window into Mongolia.  Nevertheless, I have set a timeline for exit.</p>
+<p><strong>WhatsApp</strong> was also never a core service, although there are some people that I reached this way.  Since WhatsApp doesn&rsquo;t have any distinguishing features as compared to other better messaging apps like Signal, Telegram, or the even more secure ones that I prefer (partially by using security via obscurity), it is easy to let people know that I am on another service.  It is clearly dangerous to let an app pretending to be a secure messaging service share information with the other Meta apps and constantly nudge towards more data sharing.  I&rsquo;ve already deleted this one forever.</p>
+<p><strong>Instagram</strong> is perhaps the most tragic story here.  Instagram once provided a unique user experience that could inspire and invigorate.  I certainly discovered things and connections there that otherwise would have been lost to me (such as <em>the_woman_in_the_dunes</em>).  And for a time, I enjoyed a degree of self-expression there.  But even beyond the privacy concerns of everything being melted into Meta behind the scenes, Instagram has become notably less <em>fun</em> than before (Twitter is not tragic because it was never fun).  Both obnoxious advertising and videos with noxious jingles are omnipresent now, burying the simple communication with individuals that used to feel possible.  I just don&rsquo;t like to check Instagram, despite ever only receiving sweet and endearing comments and a bare minimum of direct spam.  So I have stopped posting and taken my accounts private.  It won&rsquo;t be too long before I delete them entirely, since Instagram was never a <em>need</em>, and has ceased to be a <em>want</em>.</p>
+<h2 id="freedom">Freedom</h2>
+<p>Why am I bothering to post all of this publicly?  I was helped along my path by others who have shared about their experiences and privacy expertise, so I also want to contribute and add my voice to those who are trying to find a way out of the Matrix.</p>
+<p>I&rsquo;m not saying that other companies are perfect, but one has to start with the worst offenders. I want to make it clear that the choices that have been made by the largest tech companies in order to obtain maximum profits for unpaid services&ndash;where the &ldquo;user&rdquo; is the product and advertisers are the true customers&ndash;are unacceptable and should be viewed as such.  We should take back our data and our privacy, even at the &ldquo;cost&rdquo; of having smaller scale, less &ldquo;disruptive&rdquo; tech.  Only then will we have true freedom.</p>
+<hr>
+
+  </div>
+
+  <div id=links>
+    
+      <a class="basic-alignment left" href="https://womack.mn/posts/harmogu_day_6/">&laquo; Harmogu Day 6</a>
+    
+    
+  </div>
+</section>
+
+        </div>
+
+      </div>
+
+      <div id="footer">
+	<p>Хэрвээ чи сурахаар шулуудсан бол,</br>
+	   хэн ч чамайг зогсоож чадахгүй</p>
+        <p>Copyright 2023 by Ryan Womack, all rights reserved</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
+
+
+

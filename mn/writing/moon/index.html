@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_128x128.png" sizes="128x128">
+
+    <title>
+      
+      
+         Арван тавны сар 
+      
+    </title>
+    <link rel="canonical" href="https://womack.mn/mn/writing/moon/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    max-width:700px;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float:right;
+  }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, time {
+    color:#403c3b;
+    font-size:13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:15px;
+    padding:60px 0 80px;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content time {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align:center;
+    position:static;
+    margin-top:60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float:right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #nav li {
+      font-size:13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:12px;
+    }
+
+    #content h1 {
+      font-size:20px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li div{
+      font-size:12px;
+    }
+  }
+</style>
+
+
+    
+  </head>
+
+  <body>
+    <section id=nav>
+      <h1><a href="https://womack.mn/">WOMACK.MN</a></h1>
+      <ul>
+        
+          <li><a href="https://womack.mn/mn/writing/">бичиг</a></li>
+        
+          <li><a href="https://womack.mn/mn/posts/">бодол ба мөрөөдөл</a></li>
+        
+          <li><a href="https://womack.mn/mn/about/">тухай</a></li>
+        
+      </ul>
+      <ul>
+	<li><a href="https://womack.mn/">English</a></li>
+	<li><a href="https://womack.mn/mn/">Монгол</a></li>
+      </ul>
+    </section>
+
+
+<section id=content>
+  <h1> Арван тавны сар </h1>
+
+  <div id=date>
+    <time>2020-09-01</time>
+  </div>
+
+  <div class="entry-content">
+    <p>Зочин зохиогч, зохиогчийн зөвшөөрөлтэйгээр нийтэлсэн.</p>
+<p><a href="http://www.harmogu.com/2019/11/12/%D0%B0%D1%80%D0%B2%D0%B0%D0%BD-%D1%82%D0%B0%D0%B2%D0%BD%D1%8B-%D1%81%D0%B0%D1%80/">Хармогу&rsquo;ын жинхэнэ блог</a><br>
+<a href="https://womack.mn/en/writing/moon">For English &ldquo;The Moon of the Fifteenth&rdquo; click here</a></p>
+<hr>
+<p><strong>Арван тавны сар</strong></p>
+<p>Зочиолч Б. Ганчимэг</p>
+<p>Би жилийн жилд нэг л өдрийг тун их хүлээдэг. Ямар өдөр гээч?
+Төрсөн өдөр биш ээ! Шинэ жил ч биш. За яахав. Удахгүй хэлж өгье!</p>
+<p>Би газар дээр ганцхан эгчтэй. Эгч маань арван тавтай, харин би
+арван хоёр настай. Миний эгч их хөөрхөн. Бас онц сурдаг. Би
+үргэлж эгч шиг ээ байх юмсан гэж хүсдэг ч ихэнхдээ чаддаггүй юм.
+Байнга л ангийнхаа хөвгүүдтэй хөл бөмбөг тоглож, эсвэл компьютер
+тоглоомын газар ач тач үзэлцээд сууж байдаг болохоор яаж ч
+адилхан байхав дээ! Тэгээд ч өнөөх “Энэ нөхрийн хүйс нь
+солигдчихсон байх аа” гэдэг үг миний чихний хонх гэсэн үг. Гэхдээ
+би охин хүүхэд болохоор дотроо янз бүрийн зүйл бодолгүй л яахав.</p>
+<p>Нэгдүгээр ангид орсон жил. Нэг ширээний найз Тулгаа маань намайг
+“Чи шал царай муутай” гээд л зөндөө их шоолсоныг би мартдаггүй
+юм. Тэгэхэд бүр гомдчихоод арай гэж мартаж байтал нэг өдөр эгчийн
+ангийн багш манай багштай уулзахаар орж ирдэг юм байна. Тэгээд
+намайг харангуутаа “Пээ, энэ нөхөр чинь Анхцэцэгийн төрсөн дүү
+юу? Яасан царай муутай юм. Эгч нь тийм царайлаг байхад, шал өөр
+юм аа.” гэж чанга чанга ярих нь тэр. Ингээд л би өөрийгөө царай
+муутай гэж боддог боллоо.</p>
+<p>Ээж минь гадаадад ажилладаг тул эгч бид хоёр багаасаа өвөө эмээ
+дээрээ өссөн. Нэг орой телевизээр нүүрний тосны сурталчилгаа
+гарахыг үзээд тэр эгч шиг хөөрхөн болж болохоор санагдав. Тиймээс
+өвөө эмээ хоёроосоо “Надад энэ тосыг аваад өг” гэж шаллаа. Өвөө
+“Яах нь вэ? Миний охин.” гэж асуухаар нь “Манай ангийн хүүхэд
+намайг царай муутай гэсэн. Би энэ тосыг түрхэж, хөөрхөн болмоор
+байна” гээд үнэнээ хэлчихэв. Гэрээр нэг инээдэм. Юун тос
+авахуулах, шоолуулаад л өнгөрөв.</p>
+<p>Харин нэгэн орой өвөө минь намайг дагуулаад гадаа гарлаа. Тэгээд
+тэнгэрт мандсан тод хэр нь том сар өөд заагаад “Энэ сарыг Тэргэл
+сар гэдэг юм. Жилийн яг энэ өдөр тэнгэрт мандсан тэргэл сар ид
+шидтэй байдаг юм шүү дээ. Миний охин алган дээрээ ус тосоод,
+сарны гэрэл тусган “Сар аа, намайг өөр шигээ хөөрхөн болгож
+өгөөрэй” гэж шивнээд нүүрээ шавшчих, мэдэв үү! Хөөрхөн хүүхэн
+болно оо, миний царай муут” гэж хэлэв. Би ч баярлаад өвөөгийн
+зааснаар тэр дороо л сарнаас гуйлаа. Тэр үдэш бол хаврын эхэн
+сарын шинийн арван таван байсан юм.</p>
+<p>Гурван жил өнгөрчээ. Би шинийн арван тавны оройг тэсэн ядан
+хүлээдэг хэвээрээ. Өөрийгөө царай муутай гэж голохоо больсон.
+Учир нь хүмүүс намайг “улам хөөрхөн болоод байна” гэсэн. Гэхдээ
+энэ гурван жил өвөө минь дэргэд байсангүй. Өвөөгөө үгүйлэхийн
+ихээр үгүйлэвч, тэр л үдэш хөтлөлцөөд сар харан зогсож байснаа
+санахад уулзах шиг болдог юм. Тийм болохоор дараа хаврын шинийн
+арван таванд өвөөтэйгөө ярилцсан бяцхан үе рүүгээ дахиад нэг
+очихсон гэж тэсэн ядан хүлээнэ… Өвөө, охин нь хөөрхөн хүүхэн
+болно оо!</p>
+
+  </div>
+
+  <div id=links>
+    
+      <a class="basic-alignment left" href="https://womack.mn/mn/writing/legend/">&laquo; Домог</a>
+    
+    
+  </div>
+</section>
+
+        </div>
+
+      </div>
+
+      <div id="footer">
+	<p>Хэрвээ чи сурахаар шулуудсан бол,</br>
+	   хэн ч чамайг зогсоож чадахгүй</p>
+        <p>Copyright 2023 by Ryan Womack, all rights reserved / бүх эрх хуулиар хамгаалагдсан</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
+
+
+

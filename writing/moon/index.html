@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://womack.mn/favicon_128x128.png" sizes="128x128">
+
+    <title>
+      
+      
+         The Moon of the Fifteenth 
+      
+    </title>
+    <link rel="canonical" href="https://womack.mn/writing/moon/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    max-width:700px;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float:right;
+  }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, time {
+    color:#403c3b;
+    font-size:13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:15px;
+    padding:60px 0 80px;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content time {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align:center;
+    position:static;
+    margin-top:60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float:right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #nav li {
+      font-size:13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:12px;
+    }
+
+    #content h1 {
+      font-size:20px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li div{
+      font-size:12px;
+    }
+  }
+</style>
+
+
+    
+  </head>
+
+  <body>
+    <section id=nav>
+      <h1><a href="https://womack.mn/">WOMACK.MN</a></h1>
+      <ul>
+        
+          <li><a href="https://womack.mn/about/">about</a></li>
+        
+          <li><a href="https://womack.mn/posts/">thoughts and dreams</a></li>
+        
+          <li><a href="https://womack.mn/writing/">writing</a></li>
+        
+      </ul>
+      <ul>
+	<li><a href="https://womack.mn/">English</a></li>
+	<li><a href="https://womack.mn/mn/">Монгол</a></li>
+      </ul>
+    </section>
+
+
+<section id=content>
+  <h1> The Moon of the Fifteenth </h1>
+
+  <div id=date>
+    <time>2020-09-01</time>
+  </div>
+
+  <div class="entry-content">
+    <p>Guest author, published with author&rsquo;s permission.</p>
+<p><a href="http://www.harmogu.com/2019/11/12/%D0%B0%D1%80%D0%B2%D0%B0%D0%BD-%D1%82%D0%B0%D0%B2%D0%BD%D1%8B-%D1%81%D0%B0%D1%80/">Harmogu&rsquo;s blog - original story</a><br>
+<a href="https://womack.mn/mn/writing/moon">Энд &ldquo;Арван тавны сар&rdquo; монголоор</a></p>
+<hr>
+<p><strong>The Moon of the Fifteenth</strong></p>
+<p>Author B. Ganchimeg.  Translator Ryan Womack.</p>
+<p>I look forward to one single day in the year. What day is it? Not
+a birthday! Not even New Year&rsquo;s day. Well then. I&rsquo;ll tell you
+soon!</p>
+<p>I have a lone sister on this earth. My sister is fifteen, but I
+am twelve years old. My sister is very pretty. And also an
+excellent student. I always wanted to be like my sister, but
+usually couldn&rsquo;t manage it. How could I be the same when I was
+always playing soccer with the boys in my class, or hanging out
+all the time and fighting in the computer game arcade! And the
+words they said, “She&rsquo;s practically changed into a guy” rang in
+my ears. But since I&rsquo;m a girl, I didn&rsquo;t think that way about
+things myself.</p>
+<p>In my first grade year, I can never forget the friend who sat at
+my desk, Tulgaa, teasing me a lot, saying, “You&rsquo;ve got a really
+ugly mug.” That time I was really offended, but I had almost
+forgotten the day my sister&rsquo;s teacher came to meet my teacher.
+When she looked at me, she said, “Hey, is this guy Ankhtsetseg&rsquo;s
+younger sister? What an ugly face! The sister being so good
+looking, it&rsquo;s completely different,” her voice had boomed then.
+That&rsquo;s how I started thinking myself that I had an ugly face.</p>
+<p>My mother works abroad, so since we were little we had both grown
+up with our grandparents. One evening on the television I saw a
+commercial for face cream and thought I could be as pretty as my
+sister. So I said right out to my grandparents, “Buy this cream
+for me.” Grandpa asked, “What that my girl?” “My classmate said I
+had an ugly face. I want to apply this cream and look beautiful,”
+I said in all sincerity. At home they laughed. To buy the cream,
+I had to go through teasing.</p>
+<p>But one evening my grandfather led me by the hand and took me
+outside. Then he pointed to the moon rising so bright and big in
+the sky. “This moon is called the Full Moon. The full moon rising
+in the sky on this day of the year is so enchanted! My daughter
+would fill her palm with water and hold it in the shining
+moonlight. Then she would whisper, “Oh Moon, please make me as
+beautiful as others,” and wash her face with the water, you know,
+saying “My ugly mug, I will be a beautiful girl!” I was so
+thankful that I straightaway asked the moon, as my grandfather
+had taught me. That evening was the fifteenth day of the first
+month of spring.</p>
+<p>Three years have passed. I continue to await the evening of the
+fifteenth. I stopped calling myself ugly. Because people say to
+me “she&rsquo;s getting more and more pretty.” But for these three
+years, my grandfather was not beside me. I miss grandfather&rsquo;s
+presence so much, but on that night remembering him holding hands
+and standing looking at the moon is just like meeting with him.
+So on the fifteenth of the the first month of next spring, I can
+hardly wait to go back to talk to my grandfather again like when
+I was little … Grandfather, your girl will be so beautiful!</p>
+
+  </div>
+
+  <div id=links>
+    
+      <a class="basic-alignment left" href="https://womack.mn/writing/legend/">&laquo; Legend</a>
+    
+    
+  </div>
+</section>
+
+        </div>
+
+      </div>
+
+      <div id="footer">
+	<p>Хэрвээ чи сурахаар шулуудсан бол,</br>
+	   хэн ч чамайг зогсоож чадахгүй</p>
+        <p>Copyright 2023 by Ryan Womack, all rights reserved</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
+
+
+
