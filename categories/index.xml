@@ -4,8 +4,9 @@
     <title>Categories on Ryan Womack / Рян Вомак</title>
     <link>https://womack.mn/categories/</link>
     <description>Recent content in Categories on Ryan Womack / Рян Вомак</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>by Ryan Womack, all rights reserved</copyright><atom:link href="https://womack.mn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>by Ryan Womack, all rights reserved</copyright>
+    <atom:link href="https://womack.mn/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
