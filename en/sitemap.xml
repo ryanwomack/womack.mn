@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://womack.mn/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="mn"
@@ -13,6 +13,32 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://womack.mn/"
+                />
+  </url><url>
+    <loc>https://womack.mn/posts/njkpopper/</loc>
+    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="mn"
+                href="https://womack.mn/mn/posts/njkpopper/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://womack.mn/posts/njkpopper/"
+                />
+  </url><url>
+    <loc>https://womack.mn/posts/</loc>
+    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="mn"
+                href="https://womack.mn/mn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://womack.mn/posts/"
                 />
   </url><url>
     <loc>https://womack.mn/posts/quartet/</loc>
@@ -26,19 +52,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://womack.mn/posts/quartet/"
-                />
-  </url><url>
-    <loc>https://womack.mn/posts/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="mn"
-                href="https://womack.mn/mn/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://womack.mn/posts/"
                 />
   </url><url>
     <loc>https://womack.mn/posts/freedom_from_big_tech/</loc>
@@ -170,6 +183,21 @@
                 hreflang="en"
                 href="https://womack.mn/about/"
                 />
+  </url><url>
+    <loc>https://womack.mn/posts/times_up/</loc>
+    <lastmod>2019-07-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://womack.mn/posts/owen_meany/</loc>
+    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://womack.mn/posts/1000_days/</loc>
+    <lastmod>2019-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://womack.mn/posts/brother_john/</loc>
+    <lastmod>2019-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://womack.mn/posts/returned_from_a_safari/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://womack.mn/posts/harmogu_day_3/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>

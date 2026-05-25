@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    
+
+    
+
+    <link rel="icon" type="image/png" href="http://localhost:1313/favicon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="http://localhost:1313/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://localhost:1313/favicon_128x128.png" sizes="128x128">
+
+    <title>
+      
+      
+         thoughts and dreams 
+      
+    </title>
+    <link rel="canonical" href="http://localhost:1313/posts/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    max-width:700px;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float:right;
+  }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, time {
+    color:#403c3b;
+    font-size:13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:15px;
+    padding:60px 0 80px;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content time {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align:center;
+    position:static;
+    margin-top:60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float:right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #nav li {
+      font-size:13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:12px;
+    }
+
+    #content h1 {
+      font-size:20px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li div{
+      font-size:12px;
+    }
+  }
+</style>
+
+
+    
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+  </head>
+
+  <body>
+    <section id=nav>
+      <h1><a href="http://localhost:1313/">WOMACK.MN</a></h1>
+      <ul>
+        
+          <li><a href="http://localhost:1313/about/">about</a></li>
+        
+          <li><a href="http://localhost:1313/posts/">thoughts and dreams</a></li>
+        
+          <li><a href="http://localhost:1313/writing/">writing</a></li>
+        
+      </ul>
+      <ul>
+	<li><a href="http://localhost:1313/">English</a></li>
+	<li><a href="http://localhost:1313/mn/">Монгол</a></li>
+      </ul>
+    </section>
+
+
+<h2>thoughts and dreams</h2>
+
+  
+    <h2><a href="http://localhost:1313/posts/1000_days/">1000 days</a></h2>
+
+  <div id=date>
+    <time>2019-06-17</time>
+  </div>
+
+
+</br>    
+    <div class="content">
+    [migrated from NJKpopper blog]
+I have reset some of my clocks today. One year to wait for the &ldquo;next time&rdquo;. One thousand days to complete my task. Probably more like 1000 nights. But it really will happen.
+    
+    </div>
+
+  
+    <h2><a href="http://localhost:1313/posts/brother_john/">Brother John is Gone</a></h2>
+
+  <div id=date>
+    <time>2019-06-07</time>
+  </div>
+
+
+</br>    
+    <div class="content">
+    [migrated from NJKpopper blog]
+[originally linked to a video of the song Brother John is Gone, now removed from YouTube]
+Another sad day in the music world with the loss of Dr. John [not pictured in the thumbnail]. They are certainly not making new music like this anymore. I wonder what I will be listening to in the future if I can manage to remain in the world myself.
+Dr. John wrote&hellip; “In New Orleans, in religion, as in food or race or music, you can’t separate nothing from nothing.
+    
+      ... <a href="http://localhost:1313/posts/brother_john/">Read more &hellip;</a>
+    
+    </div>
+
+  
+    <h2><a href="http://localhost:1313/posts/returned_from_a_safari/">Returned from a safari</a></h2>
+
+  <div id=date>
+    <time>2019-06-03</time>
+  </div>
+
+
+</br>    
+    <div class="content">
+    [The Breeders singing Safari] Somewhere along the way, I lost the thread. That is evidenced by the fact that I had the Breeders Cannonball album when it was released, but that it took YouTube recommendations for me to hear &ldquo;Safari&rdquo;, an almost perfectly refined track.
+I also lost the thread by trying to compose a blog post on my Android device, owned, like YouTube, by the Alphabet corporation. But my draft was somehow lost in limbo when I tried to upload it.
+    
+      ... <a href="http://localhost:1313/posts/returned_from_a_safari/">Read more &hellip;</a>
+    
+    </div>
+
+  
+    <h2><a href="http://localhost:1313/posts/harmogu_day_3/">Harmogu Day III</a></h2>
+
+  <div id=date>
+    <time>2019-02-01</time>
+  </div>
+
+
+</br>    
+    <div class="content">
+    The inspiration continues&hellip;
+I celebrate today for the 3rd time, &ldquo;Harmogu Day&rdquo;, on the anniversary of my serendipitous discovery of Harmogu on YouTube (February 1, 2016). Readers can find my 1st and 2nd anniversary posts on this blog as well.
+I am happy that this year has brought the *reading* of Harmogu, in addition to the always intensely pleasurable *listening* to Harmogu. Her elegant and precise language is bringing Mongolian to life for me.
+    
+      ... <a href="http://localhost:1313/posts/harmogu_day_3/">Read more &hellip;</a>
+    
+    </div>
+
+  
+    <h2><a href="http://localhost:1313/posts/harmogu_at_2/">Harmogu at 2 (Хармогү, миний дэлхий даяар дуртай дуучин үргэлжлүүлсэн)</a></h2>
+
+  <div id=date>
+    <time>2018-02-01</time>
+  </div>
+
+
+</br>    
+    <div class="content">
+    So today already marks the SECOND anniversary of my discovery of Harmogu.
+Amazing how time is flying by (би нисч байна)! I have to pay tribute again to the special combination of factors that unlocked the dream chamber of my mind, most of all the siren song that is Harmogu&rsquo;s voice. I hope that the fortune I received yesterday is true. At least I am trying to follow that path to achieve the level of unique expression that Harmogu has already mastered.
+    
+      ... <a href="http://localhost:1313/posts/harmogu_at_2/">Read more &hellip;</a>
+    
+    </div>
+
+  
+
+        </div>
+
+      </div>
+
+      <div id="footer">
+	<p>Хэрвээ чи сурахаар шулуудсан бол,</br>
+	   хэн ч чамайг зогсоож чадахгүй</p>
+        <p>Copyright 2026 by Ryan Womack, all rights reserved</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
+

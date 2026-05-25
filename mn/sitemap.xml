@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://womack.mn/mn/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +15,21 @@
                 href="https://womack.mn/mn/"
                 />
   </url><url>
+    <loc>https://womack.mn/mn/posts/njkpopper/</loc>
+    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://womack.mn/posts/njkpopper/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="mn"
+                href="https://womack.mn/mn/posts/njkpopper/"
+                />
+  </url><url>
     <loc>https://womack.mn/mn/posts/</loc>
-    <lastmod>2026-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
