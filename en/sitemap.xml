@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://womack.mn/</loc>
-    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="mn"
@@ -13,6 +13,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://womack.mn/"
+                />
+  </url><url>
+    <loc>https://womack.mn/posts/chasing_beauty/</loc>
+    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://womack.mn/posts/</loc>
+    <lastmod>2026-06-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="mn"
+                href="https://womack.mn/mn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://womack.mn/posts/"
                 />
   </url><url>
     <loc>https://womack.mn/posts/njkpopper/</loc>
@@ -26,19 +42,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://womack.mn/posts/njkpopper/"
-                />
-  </url><url>
-    <loc>https://womack.mn/posts/</loc>
-    <lastmod>2026-05-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="mn"
-                href="https://womack.mn/mn/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://womack.mn/posts/"
                 />
   </url><url>
     <loc>https://womack.mn/posts/quartet/</loc>
@@ -278,6 +281,18 @@
   </url><url>
     <loc>https://womack.mn/posts/beauty_and_sadness/</loc>
     <lastmod>2017-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://womack.mn/posts/harmogu_comeback/</loc>
+    <lastmod>2017-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://womack.mn/posts/nj_kpopper/</loc>
+    <lastmod>2017-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://womack.mn/posts/what_is_music/</loc>
+    <lastmod>2017-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://womack.mn/posts/mongolia_a_good_place_to_die/</loc>
+    <lastmod>2017-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://womack.mn/posts/one_year_later/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
