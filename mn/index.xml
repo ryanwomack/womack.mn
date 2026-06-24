@@ -6,8 +6,15 @@
     <description>Recent content on WOMACK.MN</description>
     <generator>Hugo</generator>
     <language>mn</language>
-    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://womack.mn/mn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>буцалт хүлээж байна</title>
+      <link>https://womack.mn/mn/posts/awaiting_return/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://womack.mn/mn/posts/awaiting_return/</guid>
+      <description>[машинаар орчуулсан]&#xA;Энэ бичлэг нь буцалт тухай бөгөөд NJKopper-ийн бичлэгүүдэд үргэлжилсэн бичих, сэтгэл хөдлөл, бүтээлч үйл явцад хэдэн зөвлөмж, сэжүүр гаргах нь тодорхой болсон дадал зуршил руу эргэн ирэлтийн тухай юм.&#xA;Урлагт сублимаци хийхээс өөр өвдөлт, зовлонгоос баяр баясгаланг авах өөр арга зам бий юу? lemonade (нимбэгний ундаа) хийх. Тиймээс би үүнийг бичиж байхдаа уян хатан бодит байдлыг гялалзсан статик гадаргуу болгон сэргээн засварлах, дахин тохируулах нь хичнээн хэцүү болохыг санаж байна.</description>
+    </item>
     <item>
       <title>шилжилт дууссан</title>
       <link>https://womack.mn/mn/posts/migration_complete/</link>
