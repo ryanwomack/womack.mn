@@ -6,8 +6,15 @@
     <description>Recent content on WOMACK.MN</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://womack.mn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>from cringe to ick</title>
+      <link>https://womack.mn/posts/cringe_to_ick/</link>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://womack.mn/posts/cringe_to_ick/</guid>
+      <description>There is cringe, which is a phenomenon of borderlines or borderlands (окраина), where what might be seen as positive begins to curdle into something negative. This ambiguity, in my view, can be exploited in art, to make the reader/viewer question their own interpretations of reality. This in fact is what I seem to be pursuing in recent writing, linking up the ideas of physical and cultural border zones with emotional spaces of ambiguous delimitation.</description>
+    </item>
     <item>
       <title>from Sargasso to EunGyo</title>
       <link>https://womack.mn/posts/sargasso_to_eungyo/</link>
@@ -759,10 +766,24 @@
     </item>
     <item>
       <title></title>
+      <link>https://womack.mn/posts/barnard_frisson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://womack.mn/posts/barnard_frisson/</guid>
+      <description>the Barnard frisson this phrase too cringeworthy for the story, but still an important concept&#xA;Recent events, natural experiments, conspiring to reveal that the fluid intelligence of the Barnard graduate in conversation is still of great importance to this individual</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://womack.mn/posts/diogenes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://womack.mn/posts/diogenes/</guid>
       <description>I mean I wish that this neat and tidy and well-bound and logical and historical and intellectual little books were the ones that satisfied me, but they are not.&#xA;I want to part with it. The only positive memory is me reading them on the side of the steps of the SCILS building. in 1995&#xA;I liked knowing the little back stories of the philosophers, but the overall project reeks of what I have discarded, the desire to be a pretentious know-it all.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://womack.mn/posts/manifesting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://womack.mn/posts/manifesting/</guid>
+      <description>manigesting a disseaperence</description>
     </item>
   </channel>
 </rss>

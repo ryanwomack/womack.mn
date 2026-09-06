@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://womack.mn/</loc>
-    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="mn"
@@ -13,6 +13,32 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://womack.mn/"
+                />
+  </url><url>
+    <loc>https://womack.mn/posts/cringe_to_ick/</loc>
+    <lastmod>2026-09-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="mn"
+                href="https://womack.mn/mn/posts/cringe_to_ick/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://womack.mn/posts/cringe_to_ick/"
+                />
+  </url><url>
+    <loc>https://womack.mn/posts/</loc>
+    <lastmod>2026-09-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="mn"
+                href="https://womack.mn/mn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://womack.mn/posts/"
                 />
   </url><url>
     <loc>https://womack.mn/posts/sargasso_to_eungyo/</loc>
@@ -26,19 +52,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://womack.mn/posts/sargasso_to_eungyo/"
-                />
-  </url><url>
-    <loc>https://womack.mn/posts/</loc>
-    <lastmod>2026-08-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="mn"
-                href="https://womack.mn/mn/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://womack.mn/posts/"
                 />
   </url><url>
     <loc>https://womack.mn/posts/main_character/</loc>
@@ -552,7 +565,11 @@
     <loc>https://womack.mn/posts/njkpopper_is_blogging/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://womack.mn/posts/barnard_frisson/</loc>
+  </url><url>
     <loc>https://womack.mn/posts/diogenes/</loc>
+  </url><url>
+    <loc>https://womack.mn/posts/manifesting/</loc>
   </url><url>
     <loc>https://womack.mn/categories/</loc>
     <xhtml:link
