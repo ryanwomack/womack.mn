@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://womack.mn/</loc>
-    <lastmod>2026-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="mn"
@@ -13,6 +13,32 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://womack.mn/"
+                />
+  </url><url>
+    <loc>https://womack.mn/posts/manifesting/</loc>
+    <lastmod>2026-09-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="mn"
+                href="https://womack.mn/mn/posts/manifesting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://womack.mn/posts/manifesting/"
+                />
+  </url><url>
+    <loc>https://womack.mn/posts/</loc>
+    <lastmod>2026-09-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="mn"
+                href="https://womack.mn/mn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://womack.mn/posts/"
                 />
   </url><url>
     <loc>https://womack.mn/posts/tanaka/</loc>
@@ -26,19 +52,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://womack.mn/posts/tanaka/"
-                />
-  </url><url>
-    <loc>https://womack.mn/posts/</loc>
-    <lastmod>2026-09-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="mn"
-                href="https://womack.mn/mn/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://womack.mn/posts/"
                 />
   </url><url>
     <loc>https://womack.mn/posts/barnard_frisson/</loc>
