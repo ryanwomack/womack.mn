@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://womack.mn/mn/</loc>
-    <lastmod>2026-09-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,45 @@
                 rel="alternate"
                 hreflang="mn"
                 href="https://womack.mn/mn/"
+                />
+  </url><url>
+    <loc>https://womack.mn/mn/writing/</loc>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://womack.mn/writing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="mn"
+                href="https://womack.mn/mn/writing/"
+                />
+  </url><url>
+    <loc>https://womack.mn/mn/writing/policy_violation/</loc>
+    <lastmod>2026-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://womack.mn/writing/policy_violation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="mn"
+                href="https://womack.mn/mn/writing/policy_violation/"
+                />
+  </url><url>
+    <loc>https://womack.mn/mn/writing/red_blooded/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://womack.mn/writing/red_blooded/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="mn"
+                href="https://womack.mn/mn/writing/red_blooded/"
                 />
   </url><url>
     <loc>https://womack.mn/mn/posts/</loc>
@@ -234,19 +273,6 @@
                 rel="alternate"
                 hreflang="mn"
                 href="https://womack.mn/mn/writing/moon/"
-                />
-  </url><url>
-    <loc>https://womack.mn/mn/writing/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://womack.mn/writing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="mn"
-                href="https://womack.mn/mn/writing/"
                 />
   </url><url>
     <loc>https://womack.mn/mn/writing/legend/</loc>
